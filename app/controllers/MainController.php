@@ -19,8 +19,13 @@ class MainController extends Controller
 
     public function notFound() {
         //todo create a 404 twig template in app/public/assets/views
+        $template = $this->twig->load('users/error.twig');
+        echo $template->render($errorData);
+        echo http_response_code(404);
         //an example is in app/controllers/UsersController
         //and return it from this method
     }
+
+
 
 }
