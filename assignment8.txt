@@ -1,0 +1,17 @@
+#1:
+Escaping data is a process of removing and replacing characters that should not appear in a value. This is 
+done in order to prevent hackers sending malicious and dangerous code.
+
+#2:
+a. REST stands for Represetnational State Transfer. It makes it easier for computer systems to communicate with 
+each other. Statelessness is essentially where the server does not need information about what state the client is in (and vice versa).
+
+b. A resource can describe any object or thing that you can store to send to other services.
+
+ci. In order to get a list of users you would use the GET HTTP method, with the URL /users
+ii. you would use the GET HTTP method with the URL /users, but specifying the particular user that you'd wish to get. 
+iii. you could use the POST HTTP method, with the URL being /users, specifying the particular user that you'd wish to save
+
+#3. A cookie is a text file with data that sends this data to a web browser. 
+
+#4. A session is an information interchange between devices or computers and users.
